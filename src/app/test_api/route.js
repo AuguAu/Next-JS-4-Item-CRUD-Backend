@@ -10,7 +10,7 @@ export async function OPTIONS(req) {
 }
 export async function GET() {
     const message = {
-        message: "hello world"
+        message: "hello world from Next.js"
     };
     return NextResponse.json(message, {
         headers: corsHeaders,
